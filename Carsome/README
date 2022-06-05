@@ -1,0 +1,19 @@
+The below Readme file contains how to configure the cucumber Framework and how to execute the testcases
+
+This Project I used is Selenium integrated with Cucumber Framework. This is BDD driven project where it is easy where a laymen can able to understood by seeing the feature file.
+Steps to do:
+1. create a New Maven project.
+2. Add the dependencies that are needed for selenium, cucumber, TestNG.
+3. Install TestNG for Eclipse plugin from Market place.
+4. Install  Cucumber plugin for Eclipse through below steps
+   a.Open Eclipse, Click Help → Install New Software.
+   b.Click on the "Add" button at the right side of 'Work with' field.
+   c.Give the Name (say, cucumber-eclipse) and input the URL 'https://cucumber.github.io/cucumber-eclipse/update-site' at Location field -> Click OK.
+   d.Check the box 'Cucumber Eclipse Plugin'.
+   e.Untick 'Contact all update sites during install...'.click on next and install
+ 5. Here Cucumber framework contains a Feature file, Step Definition file and TestRunner file.
+ 6. Feature file defines the scenerios and steps related to the TestScript with tagname
+ 7. Stepdefination file contains actual code.
+ 8. Through runner file , we will include the tagname that is from feature file and  execute the testcase.
+ 9. Right click at testrunner file and run as TestNG and execute the Testcase.
+ 
